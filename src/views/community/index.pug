@@ -1,8 +1,8 @@
 extends ../../templates/layout
 
 block vars
-  - var title = "WhyAZ Community"
-  - var description = "See what people are sharing about Arizona with #whyaz."
+  - var title = "Hello Saint John Community"
+  - var description = "See what people are sharing about Saint John with #saintjohn."
   - var bodyClass = "community"
   - var pagePath = "community"
 
@@ -11,15 +11,15 @@ block content
   .flex-container
     .flex-1of2
       .content.pale-blue.text-drk
-        h2 Arizona Love
-        p See the reasons others love Arizona.
+        h2 Hello Saint John!
+        p You're looking mighty fine. 
     .flex-1of2
       .content.red.text-light.center-vert
-        h3 Share yours with <a href="https://twitter.com/search?q=%23whyaz&amp;src=typd">#whyaz</a>.
+        h3 Share yours with <a href="https://twitter.com/search?q=%23saintjohn&amp;src=typd">#saintjohn</a>.
 
     .flex-1of1
       #juicer-embed
 
         script(src="//assets.juicer.io/embed.js" type="text/javascript")
         link(href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css")
-        ul(class="juicer-feed" data-feed-id="whyaz")
+        ul(class="juicer-feed" data-feed-id="saintjohn")
