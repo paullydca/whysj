@@ -1,8 +1,8 @@
 extends ../../templates/layout
 
 block vars
-  - var title = "AZ Weather"
-  - var description = "Current temperatures in three major Arizona cities."
+  - var title = "SJ Weather"
+  - var description = "Current temperatures in Saint John"
   - var bodyClass = "weather"
   - var pagePath = "weather"
 
@@ -13,7 +13,7 @@ block content
       fetching-weather(latitude="33.4373", longitude="-112.0078")
       h2 Phoenix
     .city.red.tucson
-      fetching-weather(latitude="32.2226", longitude="-110.9747")
+      fetching-weather(latitude="45.2733", longitude="66.0633")
       h2 Tucson
     .city.grey-drk.flagstaff
       fetching-weather(latitude="35.198284", longitude="-111.651299")
